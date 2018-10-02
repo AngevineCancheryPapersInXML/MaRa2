@@ -1,16 +1,16 @@
-# MaRa2
-Marcatore dei Registri Angioini version2
+# MaRa v2.0 Repository
+*Author: Alfredo Cosco*
+*alfredo[dot]cosco[at]gmail[dot]com*
+[https://github.com/orazionelson](https://github.com/orazionelson)
 
-It follows MaRa1, that was a group of scripts with a minimal web interface used to import trancripts of Angevine Canchery Papers edited in:
+**MaRa** stands for: **Marcatore dei Registri Angioini**
 
- **I registri della Cancelleria Angioina, Napoli, since ----**
+This software is part of a project of [**University of Napoli "Federico II"**](http://www.unina.it), that aims to build an XML archive, a database and a search tool for the **Southern Italian Angevine Canchery Papers**.
 
-MaRa1 was a test used for my degree, MaRa2 was its evolution and was used in production to implement a first substantial XML database.
+This repository contains: 
 
-Here all the script were rewritten or nested in a CodeIgniter based framework, the job from raw text to the xml was designed in a flow: 
+- the technical paper about MaRa v. 2.0 in different formats: .html, .md and .pdf.
+>mara2_paper.*	
 
-from the import of the transcript to the export of a set of xml valid documents.
-
-All the first part of the import job, previously made with a common text editor, was integrated in the framework with CodeMirror.
-
-This repo comes with a small set of documents ready to be imported.
+- the script packed in a zip file with its MySql database
+>registridev.zip
