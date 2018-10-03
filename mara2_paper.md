@@ -228,7 +228,7 @@ It is possible validate the entire transcription or the single document.
 
 ![Step3b Validate](img/step3b_validate.png)
 
-Then at the bottom of this interface is possible to pack each generate regisin a zip file or create a TOC of them.
+Then at the bottom of this interface is possible to pack each generated registry in a zip file or create a TOC of them.
 
 ![Step3b Zip](img/step3b_zip.png)
 
