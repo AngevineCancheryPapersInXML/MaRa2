@@ -8,6 +8,8 @@
 
 **MaRa** stands for: **Marcatore dei Registri Angioini**
 
+GitHub repository: https://github.com/angioXML/MaRa2
+
 This software is part of a project of [**University of Napoli "Federico II"**](http://www.unina.it), that aims to build an XML archive, a database and a search tool for the **Southern Italian Angevine Canchery Papers**.
 
 ## A short historical intro
@@ -149,17 +151,20 @@ Same as before but it adds page numbers to each document
 
 #### Step2a
 
-This is the core of the application, it inherits most of **MaRa1** functions. 
+This is the **core** of the application, it inherits most of **MaRa1** functions. 
 The software splits the partitions in single documents and import them in 4 db tables: 
 
-- **ra_mara_RXX_index**: and index of all registry partitions with their status: true (for the currrent editing partitions), false (for the partition to edit), approved (for the edited partitions);
+- **ra_mara_RXX_index**: and index of all registry partitions with their status: 
+  - true (for the currrent editing partitions), 
+  - false (for the partition to edit), 
+  - approved (for the released partitions);
 - **ra_mara_RXX_document**: for the document data: Title, Text, Pagenumber; 
 - **ra_mara_RXX_regorig**: for the document primary sources; 
 - **ra_mara_RXX_source**: for the document secondary sources.
 
 *(where XX is the registry id number)*
 
-At the top of the page there is an **Info Panel** that works as a first control error:
+At the top of the page there is an **Info Panel** that works as a first error control:
 
 > if the 3 numbers in the panel are the same everything is going good otherwise there's something wrong in the transcript
 
