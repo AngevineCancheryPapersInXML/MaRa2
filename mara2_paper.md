@@ -135,7 +135,7 @@ So, an end transcrip should look like this:
 
 This **STEP** splits the entire registry in partitions using the tag **#PARTITION#**. 
 
-![Step1a Partitions](/var/www/html/MaRa2/img/step1a_partitions.png)
+![Step1a Partitions](img/step1a_partitions.png)
 
 The highlighted text in the integrated editor helps to find possible transcript errors.
 
