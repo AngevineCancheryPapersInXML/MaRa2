@@ -1,4 +1,4 @@
-# MaRa v2.0
+# Southern Italian Angevine Canchery Papers in XML, the script: MaRa v2.0
 
 *Alfredo Cosco*
 
