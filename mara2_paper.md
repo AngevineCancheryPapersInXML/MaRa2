@@ -6,6 +6,8 @@
 
 [https://github.com/orazionelson](https://github.com/orazionelson)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1443477.svg)](https://doi.org/10.5281/zenodo.1443477)
+
 **MaRa** stands for: **Marcatore dei Registri Angioini**
 
 GitHub repository: https://github.com/angioXML/MaRa2
