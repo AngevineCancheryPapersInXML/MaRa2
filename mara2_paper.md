@@ -1,4 +1,4 @@
-# Southern Italian Angevine Canchery Papers in XML, the script: MaRa v2.0
+# Southern Italian Angevine Chancery Papers in XML, the script: MaRa v2.0
 
 *Alfredo Cosco*
 
@@ -12,18 +12,18 @@
 
 GitHub repository: https://github.com/angioXML/MaRa2
 
-This software is part of a project of [**University of Napoli "Federico II"**](http://www.unina.it), that aims to build an XML archive, a database and a search tool for the **Southern Italian Angevine Canchery Papers**.
+This software is part of a project of [**University of Napoli "Federico II"**](http://www.unina.it), that aims to build an XML archive, a database and a search tool for the **Southern Italian Angevine Chancery Papers**.
 
 ## A short historical intro
-During the World War II, at the end of September 1943, a German army troop retreating from southern Italy burned the *Angevine Canchery Archive of Naples Kingdom*. The papers were hosted, for safety reasons, in a village, **San Paolo Belsito**, about 30km far from their building in Naples (then almost daily bombed by the Allies). The German retaliation destroyed thousands of folders containing parchments from the 13th to the 15th century.
+During the World War II, at the end of September 1943, a German army troop retreating from southern Italy burned the *Angevine chancery Archive of Naples Kingdom*. The papers were hosted, for safety reasons, in a village, **San Paolo Belsito**, about 30km far from their building in Naples (then almost daily bombed by the Allies). The German retaliation destroyed thousands of folders containing parchments from the 13th to the 15th century.
 
-After the war, the archivists of **Archivio di Stato di Napoli**, leaded by Riccardo Filangieri, went in search of the transcripts of the lost acts, administrative and political, which had been made over the centuries by archivists, scholars and historians. Then, they started to rebuild the archive in printed volumes. The reconstruction work continues today, it reached the number of 50 volumes and it covers a range of years from 1265 to 1434, under the main title: **I Registri della Cancelleria Angioina**.
+After the war, the archivists of **Archivio di Stato di Napoli**, led by Riccardo Filangieri, went in search of the transcripts of the lost acts, administrative and political, which had been made over the centuries by archivists, scholars and historians. Then, they started to rebuild the archive in printed volumes. The reconstruction work continues today, it reached the number of 50 volumes and it covers a range of years from 1265 to 1434, under the main title: **I Registri della Cancelleria Angioina**.
 
-## Software Dev for Angevine Canchery Papers in XML
+## Software Dev for Angevine Chancery Papers in XML
 
-Since 2004, Prof. Roberto Delle Donne, from *University of Napoli "Federico II"*, managed for a digital edition of the **Angevine Canchery sources**, with the aim to realize a research tool accessible through a web interface.
+Since 2004, Prof. Roberto Delle Donne, from *University of Napoli "Federico II"*, managed for a digital edition of the **Angevine Chancery sources**, with the aim to realize a research tool accessible through a web interface.
 
-I was involved, as a student of Arts and Licterature and worker in IT, at the early stages of the project.
+I was involved, as a student of Arts and Literature and worker in IT, at the early stages of the project.
 
 Focusing on available options XML appeared as the most suitable format to store the data, then a DTD was defined by Dott. Manuela Schiano. According to the DTD each XML had to be structured  in three parts:
 
@@ -33,7 +33,7 @@ Focusing on available options XML appeared as the most suitable format to store 
 
 The **content** was structured in: PROTOCOLLO, TESTO and ESCATOCOLLO, that are the three main portions of a medieval document. Inside the document content each part contains children defined with the names of diplomatic: INSCRIPTIO, DATATIO, SANCTIO...
 
-As early transcripts where made by random documents, a series of difficulties arised: 
+As early transcripts where made by random documents, a series of difficulties arose: 
 
 * slowness to mark-up the documents, 
 * different tools used by editors, 
@@ -45,7 +45,7 @@ Moreover, the frustration of editing by hands full sets documents repeating tags
 
 Then, this target became the object of my degree thesis in Medieval History: Alfredo Cosco, _Critica documentaria e nuove tecnologie. Problemi, tecniche e un caso di studio_, Università degli Studi di Napoli "Federico II", aa 2007-2008.  
 
-**MaRa v1** was a set of unordered [PHP](http://www.php.com)  scripts with a minimal web interface. it was born to transform text transcrips (made in a standard format easier than XML) in well-formed XML. 
+**MaRa v1** was a set of unordered [PHP](http://www.php.com)  scripts with a minimal web interface. it was born to transform text transcripts (made in a standard format easier than XML) in well-formed XML. 
 
 **MaRa v2** is its evolution and was used to realize a first heavy draft of our XML repository.
 
@@ -53,7 +53,7 @@ All the scripts were rewritten or nested in [CodeIgniter](https://codeigniter.co
 
 All the functions now are in *models/* and *controllers/* of *mara2/* module.
 
-The new interface integrates an highly customizable text editor like [CodeMirror](https://codemirror.net/) in order to manage everything inside the browser.
+The new interface integrates a highly customizable text editor like [CodeMirror](https://codemirror.net/) in order to manage everything inside the browser.
 
 There is a dedicated set of regex written for **CodeMirror** to highlight the text files with different colors: useful to check transcript formal errors; it's possible to see them in the file:
 
@@ -63,7 +63,7 @@ The **DTD** has been replaced by an **XSchema**.
 
 And, that's the most important thing, the job is designed in a flow: 
 
->from the transcript import  to the export in a set of xml valid documents, eventually packed in a zip file.
+>from the transcript import to the export in a set of xml valid documents eventually packed in a zip file.
 
 ## MaRa2 workflow
 
@@ -112,7 +112,7 @@ The pagination follows the printed text, like this example:
 		[document]
 		... 
 
-So, an end transcrip should look like this:
+So, an end transcript should look like this:
 
 	#PARTITION#
 	REGISTRUM IUSTITIARIORUM, LI, IND. II (1273) - Iustitiario Aprutii citra flumen Piscarie
@@ -137,7 +137,7 @@ So, an end transcrip should look like this:
 
 #### Step1a 
 
-This **STEP** splits the entire registry in partitions using the tag **#PARTITION#**. 
+This **STEP** splits the entire registry into partitions using the tag **#PARTITION#**. 
 
 ![Step1a Partitions](img/step1a_partitions.png)
 
@@ -168,27 +168,27 @@ The software splits the partitions in single documents and import them in 4 db t
 
 At the top of the page there is an **Info Panel** that works as a first error control:
 
-> if the 3 numbers in the panel are the same everything is going good otherwise there's something wrong in the transcript
+> if the 3 numbers in the panel are the same everything is going well otherwise there's something wrong in the transcript
 
 Each document is analyzed in the tabs at the middle the page. 
 
 ![Step2a](img/step2a.png)	
 
-The software normalizes the most common errors appeared in editing using **regular expressions**. Sometimes it correct them, in other cases it shows a error message. 
+The software normalizes the most common errors appeared in editing using **regular expressions**. Sometimes it corrects them, in other cases it shows an	 error message. 
 
-**Sample error:** in the next image the document title has not beed separated by the text.
+**Sample error:** in the next image the document title has not been separated by the text.
 
 ![Step2a Error](img/step2a_error.png)	
 
-Is possible correct the error in the integrated editor.
+It is possible to correct the error in the integrated editor.
 
 ![Step2a Error](img/step2a_error_bis.png)	
 
-**Sample error:** in the next image the software alerts for a a leak of page number.
+**Sample error:** in the next image the software alerts for a leak of the page number.
 
 ![Step2a Error](img/step2a_error_ter.png)	
 
-**Sample error correction:** in the next image the software advises for an autocorrection.
+**Sample correction:** in the next image the software advises for an autocorrection.
 
 ![Step2a Error Correction](img/step2a_error_correct.png)
 
@@ -201,11 +201,11 @@ The tab for the secondary sources, called **Fonti**, will split and normalize th
 See in the next image that the notation  *Ms. Bibl. Naz* changes to *Biblioteca Nazionale di Napoli, ms.*
 
 ![Step2a Secondary Sources](img/step2a_sources_analysis.png)
-It is possible to edit the transformation db from the sub-tab **Casistica di trasformazione**
+It is possible to edit the transformation DB from the sub-tab **Casistica di trasformazione**
 
 ![Step2a Transformations](img/step2a_transformations.png)
 
-Sometimes the splitted vision of the sources shows you that something is wrong, see the next image:
+Sometimes the split vision of the sources shows you that something is wrong, see the next image:
 
 ![Step2a hand Correction](img/step2a_error_correct_ter.png)
 
@@ -218,15 +218,15 @@ When all partitions are released, on the page appears the **Crea XML** that lead
 
 #### Step3a
 
-This step transforms the records in XML files.
+This step transforms the records into XML files.
 
 ![Step3a Make XML](img/step3a.png)
 
 
 #### Step3b
 
-The last step is dedicated to validate the XML.
-It is possible validate the entire transcription or the single document.
+The last step is dedicated to validating the XML.
+It is possible to validate the entire transcription or the single document.
 
 ![Step3b Validate](img/step3b_validate.png)
 
@@ -248,26 +248,26 @@ the sub-directories:
 * *06_toc/* Contains a useful toc of generated documents    
 * *maradb/* Contains a text-db used for the sources normalization process
 
-At the end of the flow XML files will be stored in **03_xml/**. 
+At the end of the flow, XML files will be stored in **03_xml/**. 
 
 ## Targets
 
-Almost the half of the entire documents set edited in **I Registri della Cancelleria Angioina** has been tranformed to XML using MaRa v1 and v2.
+Almost the half of the entire documents set edited in **I Registri della Cancelleria Angioina** has been transformed to XML using MaRa v1 and v2.
 
-Moreover, the design of the project, bring more counsciousness about how to: 
+Moreover, the design of the project, bring more consciousness about how to: 
 
-> **design an editing infrastructure based on XML but dedicated to people that has to practice XML as less as possible**.
+> **design an editing infrastructure based on XML but dedicated to people that have to practice XML as less as possible**.
 
-The know-how and the files were transfered in the new project based on [xquery](https://www.w3.org/XML/Query/) and [eXist-db](http://exist-db.org).
+The know-how and the files were transferred in the new project based on [xquery](https://www.w3.org/XML/Query/) and [eXist-db](http://exist-db.org).
 
 ## Notes about the software installation for testing
 
-**MaRa2** is designed for a localhost use, moreover its specifical features make its use for a different project a *nonsense*, anyway, its installation and use comes as common CMS in a [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) environment:
+**MaRa2** is designed for a localhost use, moreover, its specifical features make its use for a different project a *nonsense*, anyway, its installation and use comes as common CMS in a [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) environment:
 
 - unzip the package to your apache web-server, so your path will be: http://localhost/registridev
 - import the **registridev.sql.gz** file in a MySql table called: *registridev*
-- set the CodeIgniter config files, as any CI application, with you server and mySql data
-- set the *registridev/* directory (and everyting inside it) permissions to 777
+- set the CodeIgniter config files, as any CI application, with your server and MySql data
+- set the *registridev/* directory (and everything inside it) permissions to 777
 - log-in on **registridev/main/login** as admin/admin
 - test the application, go to **registridev/mara2/mara2**
 

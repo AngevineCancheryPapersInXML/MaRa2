@@ -8,7 +8,7 @@
 
 **MaRa** stands for: **Marcatore dei Registri Angioini**
 
-This software is part of a project of [**University of Napoli "Federico II"**](http://www.unina.it), that aims to build an XML archive, a database and a search tool for the **Southern Italian Angevine Canchery Papers**.
+This software is part of a project of [**University of Napoli "Federico II"**](http://www.unina.it), that aims to build an XML archive, a database and a search tool for the **Southern Italian Angevine Chancery Papers**.
 
 This repository contains: 
 
