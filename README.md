@@ -8,7 +8,7 @@
 
 [https://github.com/orazionelson](https://github.com/orazionelson)
 
-HitHub repository: [https://github.com/angioXML/MaRa2](https://github.com/angioXML/MaRa2)
+GitHub repository: [https://github.com/angioXML/MaRa2](https://github.com/angioXML/MaRa2)
 
 **MaRa** stands for: **Marcatore dei Registri Angioini**
 
