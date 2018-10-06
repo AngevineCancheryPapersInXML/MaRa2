@@ -1,6 +1,6 @@
 # MaRa v2.0 Repository
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1443477.svg)](https://doi.org/10.5281/zenodo.1443477)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1447195.svg)](https://doi.org/10.5281/zenodo.1447195)
 
 *Author: Alfredo Cosco*
 *alfredo[dot]cosco[at]gmail[dot]com*
@@ -17,3 +17,12 @@ This repository contains:
 
 - the script packed in a zip file with its MySql database
 >registridev.zip
+
+
+
+[Read the paper](mara2_paper.md)
+
+[See the project on GitHub](https://github.com/angioXML/MaRa2)
+
+
+
