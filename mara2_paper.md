@@ -21,7 +21,7 @@ After the war, the archivists of **Archivio di Stato di Napoli**, led by Riccard
 
 ## Software Dev for Angevine Chancery Papers in XML
 
-Since 2004, Prof. Roberto Delle Donne, from *University of Napoli "Federico II"*, managed for a digital edition of the **Angevine Chancery sources**, with the aim to realize a research tool accessible through a web interface.
+Since 2001, Prof. Roberto Delle Donne, from *University of Napoli "Federico II"*, managed for a digital edition of the **Angevine Chancery sources**, with the aim to realize a research tool accessible through a web interface.
 
 I was involved, as a student of Arts and Literature and worker in IT, at the early stages of the project.
 
